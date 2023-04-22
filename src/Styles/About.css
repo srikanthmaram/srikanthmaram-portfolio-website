@@ -1,0 +1,118 @@
+.About-container
+{
+    display: flex;
+    background-color: rgb(26 26 49);
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+   padding: 2px;
+}
+.About-card_container
+{
+    height: 600px;
+   width: 57%;
+    background-color: #01254e;
+   border-radius: 10px;
+    box-shadow: 8px 8px 5px black;
+    display: flex;
+  padding: 10px;
+  margin: 10px;
+
+}
+.About-img_container
+{
+    background-color:black;
+    width: 260px;
+   border-left:2px solid #4c4d22 ;
+   border-top:2px solid #4c4d22 ;
+   border-bottom:2px solid #4c4d22 ;
+ 
+}
+.About-content_container
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-right:2px solid #4c4d22 ;
+    border-top:2px solid #4c4d22 ;
+    border-bottom:2px solid #4c4d22 ;
+}
+.About-sections_container
+{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #040435;
+}
+.About-sections_container
+{
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#selected
+{
+    color: yellow;
+}
+.About-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-grow: 1;
+}
+.Education-container
+{
+    height: 475px;
+    width: 475px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(12, 12, 12, 0.2);
+}
+.circle-container
+{
+    height: 10px;
+    width: 10px;
+    color: blue;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border: 1px solid blue;
+}
+.Education-level-dot
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 45px;
+}
+.education-level
+{
+   border-left: 3px solid blue;
+   padding: 10px;
+   color: hsl(180deg 28.97% 45.42%);
+   border-radius: 20px;
+   background-color: white;
+  border-right: 1px solid #ccc;
+  /*border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;*/
+}
+.Education-header
+{  
+    background-color: hsl(180deg 28.97% 45.42%);
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 26px 0px 20px;
+    height: 36px;
+    color: #031312bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

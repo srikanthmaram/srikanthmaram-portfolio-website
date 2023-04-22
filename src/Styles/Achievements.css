@@ -1,0 +1,52 @@
+.achievements-container
+{
+    height: 475px;
+    width: 475px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(12, 12, 12, 0.2);
+}
+.achievements-header
+{
+    margin-top: 30px;
+    background-color: hsl(180deg 28.97% 45.42%);
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 26px 0px 20px;
+    height: 36px;
+    color: #031312bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-line
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.achievements
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.achievement-container
+{
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    color: hsl(180deg 28.97% 45.42%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.achievement-container img{
+    height: 30px;
+    width: 30px;
+}

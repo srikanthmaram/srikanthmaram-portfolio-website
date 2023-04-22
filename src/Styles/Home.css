@@ -1,0 +1,88 @@
+.Home-container
+{
+   display: flex;
+    height: 100vh;
+    background-color: rgb(26 26 49);
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.Intro_container
+{
+    display: flex;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin: 20px;
+}
+.Image_container
+{
+    margin: 10px 10px 10px 30px;
+}
+.Image_container img
+{
+    height: 490px;
+    width: 345px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px black;
+}
+.Intro-card_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #01254e;
+    color: black;
+    height:425px;
+    width: 975px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px black;  
+    color: white;
+    padding: 35px;
+    margin: 10px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 49px;
+  position: relative;
+  display: inline-block;
+  color: yellow;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+.Intro-paragraph
+{
+    margin-top: 30px;
+    padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+color: whitesmoke;
+}
+.Intro-header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Intro-header p
+{
+ font-family:'sans-serif';
+ font-size: 30px;
+ color: rgb(11 197 204);
+}
